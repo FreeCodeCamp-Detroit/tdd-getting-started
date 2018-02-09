@@ -1,3 +1,5 @@
-var getLongestWord = undefined;
+var getLongestWord = function (str) {
+  
+};
 
 module.exports = getLongestWord;

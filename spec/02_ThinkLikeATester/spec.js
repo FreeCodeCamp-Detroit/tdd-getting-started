@@ -9,7 +9,7 @@ describe('[LESSON TWO: Think Like a Tester]', () => {
       expect(getLongestWord).to.be.a('function');
     });
     it('should return a string', () => {
-      //expect(getLongestWord('What is the longest word in this sentence')).to.be.a('string');
+      expect(getLongestWord('What is the longest word in this sentence')).to.be.a('string');
     });
     it('should throw an error when the first parameter is not a string', () => {
       /*expect(() => {
