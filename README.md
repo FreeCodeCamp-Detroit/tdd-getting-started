@@ -37,9 +37,9 @@ It is assumed you know the following:
 3. Running your first test
 4. Red-Green-Refactor
 5. Thinking like a Tester
-6. Writing your first test
+6. Making it Work
 7. A few helpful templates and patterns
-8. Challenges
+8. Challenge (Now you try!)
 
 ## Resources
 
