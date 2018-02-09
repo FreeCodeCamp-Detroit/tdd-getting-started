@@ -1,0 +1,30 @@
+{
+  "name": "tdd-getting-started",
+  "version": "1.0.0",
+  "description": "A lesson on how to get started with test-driven development in JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec/* --reporter spec --no-deprecation --full-trace"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreeCodeCamp-Detroit/tdd-getting-started.git"
+  },
+  "keywords": [
+    "TDD",
+    "BDD",
+    "JavaScript",
+    "Mocha",
+    "Chai",
+    "Tutorial"
+  ],
+  "author": "Danya D. Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FreeCodeCamp-Detroit/tdd-getting-started/issues"
+  },
+  "homepage": "https://github.com/FreeCodeCamp-Detroit/tdd-getting-started#readme",
+  "devDependencies": {
+    "chai": "^4.1.2"
+  }
+}
