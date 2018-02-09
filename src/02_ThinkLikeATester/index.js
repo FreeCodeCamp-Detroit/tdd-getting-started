@@ -1,6 +1,6 @@
 var getLongestWord = function (str) {
   if (typeof str === 'string') {
-    var words = str.replace(/[^a-zA-Z]/g, ' ').toLowerCase().split(' ');
+    var words = str.replace(/[^a-zA-Z’']/g, ' ').toLowerCase().split(' ');
     var wordLengths = words.map((word) => word.length);
     var longestLen = Math.max.apply(null, wordLengths);
     var indexOfLongestWord = wordLengths.indexOf(longestLen);
