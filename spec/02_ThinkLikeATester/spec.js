@@ -28,11 +28,9 @@ describe('[LESSON TWO: Think Like a Tester]', () => {
         getLongestWord(undefined);
       }).to.throw(TypeError, 'The parameter str must be a string.');
     });
-    /*
     it('should return the longest word converted to lowercase', () => {
       expect(getLongestWord('Juxtapose the strings')).to.eql('juxtapose');
     });
-    */
     /*
     it('should not remove apostrophes from the longest word', () => {
       expect(getLongestWord('They’re gone')).to.eql('they’re');
