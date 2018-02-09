@@ -31,11 +31,10 @@ describe('[LESSON TWO: Think Like a Tester]', () => {
     it('should return the longest word converted to lowercase', () => {
       expect(getLongestWord('Juxtapose the strings')).to.eql('juxtapose');
     });
-    /*
     it('should not remove apostrophes from the longest word', () => {
       expect(getLongestWord('They’re gone')).to.eql('they’re');
+      expect(getLongestWord('they\'ve been away')).to.eql('they\'ve');
     });
-    */
     /*
     it('should return an empty string when passed an empty string', () => {
       expect(getLongestWord('')).to.eql('');
