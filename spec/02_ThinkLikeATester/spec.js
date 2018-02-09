@@ -35,20 +35,14 @@ describe('[LESSON TWO: Think Like a Tester]', () => {
       expect(getLongestWord('They’re gone')).to.eql('they’re');
       expect(getLongestWord('they\'ve been away')).to.eql('they\'ve');
     });
-    /*
     it('should return an empty string when passed an empty string', () => {
       expect(getLongestWord('')).to.eql('');
     });
-    */
-    /*
     it('should remove trailing punctuation from the longest word', () => {
       expect(getLongestWord('The longest word I know is antidisestablishmentarianism.')).to.eql('antidisestablishmentarianism');
     });
-    */
-    /*
     it('should return the first occurring word of all longest words', () => {
       expect(getLongestWord('hello world')).to.eql('hello');
     });
-    */
   });
 });
