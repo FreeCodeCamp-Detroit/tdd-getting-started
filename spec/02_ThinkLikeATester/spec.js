@@ -11,7 +11,6 @@ describe('[LESSON TWO: Think Like a Tester]', () => {
     it('should return a string', () => {
       expect(getLongestWord('What is the longest word in this sentence')).to.be.a('string');
     });
-    /*
     it('should throw an error when the first parameter is not a string', () => {
       expect(() => {
         getLongestWord(true);
@@ -29,7 +28,6 @@ describe('[LESSON TWO: Think Like a Tester]', () => {
         getLongestWord(undefined);
       }).to.throw(TypeError, 'The parameter str must be a string.');
     });
-    */
     /*
     it('should return the longest word converted to lowercase', () => {
       expect(getLongestWord('Juxtapose the strings')).to.eql('juxtapose');
